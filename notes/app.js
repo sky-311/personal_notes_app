@@ -1,4 +1,3 @@
-// app.js
 import { saveNotes, loadNotes } from './storage.js';
 import { renderNotes } from './ui.js';
 
@@ -61,5 +60,4 @@ searchInput.addEventListener('input', e => {
   renderNotes(filtered, notesContainer, deleteNote);
 });
 
-// Initial render
 renderNotes(notes, notesContainer, deleteNote);
