@@ -1,4 +1,4 @@
-// storage.js
+
 const STORAGE_KEY = 'personal_notes_app';
 
 export function saveNotes(notes) {
