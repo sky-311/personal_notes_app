@@ -1,4 +1,4 @@
-// ui.js
+
 export function renderNotes(notes, container, onDelete) {
   container.innerHTML = '';
 
@@ -21,7 +21,7 @@ export function renderNotes(notes, container, onDelete) {
     container.appendChild(noteEl);
   });
 
-  // Attach delete event listeners
+  
   container.querySelectorAll('.delete-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const id = btn.getAttribute('data-id');
